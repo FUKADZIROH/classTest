@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="internal">
+      <UniqueIdentifier>{aa19703f-e1ab-4a3e-a332-8a717f1829a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="presentation">
+      <UniqueIdentifier>{699c87aa-8305-4cb2-9371-d1c5b4cfb28f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="domain">
+      <UniqueIdentifier>{fdb33745-18a1-4ea6-950e-02c15f438c9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data">
+      <UniqueIdentifier>{81863c61-4b3d-4e9c-a720-b725e67ab956}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="domain\model">
+      <UniqueIdentifier>{7083d40a-2d55-4c88-9217-633c1beca349}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="domain\usecase">
+      <UniqueIdentifier>{f9212d2b-36d1-43e5-bec4-0417925e12fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="presentation\screens">
+      <UniqueIdentifier>{e20da01b-e4e1-40e0-b210-42ddff3cd19c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="presentation\screens\home">
+      <UniqueIdentifier>{c3f71246-93a5-41e4-a64f-3cb54da26efe}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="application.cpp">
+      <Filter>internal</Filter>
+    </ClCompile>
+    <ClCompile Include="Person.cpp">
+      <Filter>domain\model</Filter>
+    </ClCompile>
+    <ClCompile Include="PersonProvider.cpp">
+      <Filter>domain\usecase</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Person.h">
+      <Filter>domain\model</Filter>
+    </ClInclude>
+    <ClInclude Include="library.h">
+      <Filter>internal</Filter>
+    </ClInclude>
+    <ClInclude Include="PersonProvider.h">
+      <Filter>domain\usecase</Filter>
+    </ClInclude>
+    <ClInclude Include="Home.h">
+      <Filter>presentation\screens\home</Filter>
+    </ClInclude>
+    <ClInclude Include="Screens.h">
+      <Filter>presentation\screens</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
